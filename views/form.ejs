@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style1.css">
+    
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+
+
+<body>
+            <form action="/form" , method="post">
+                <div class="form-group">
+                    <label for="fuel-type">Fuel Type</label> <br>
+                    <select name="fueltype" id="fueltype">
+                        <option value=""></option>
+                        <option value="Petrol">Petrol</option>
+                        <option value="Diesel">Diesel</option>
+                        <option value="Petrol / Diesel">Petrol / Diesel</option>
+                    </select>
+                    <br>
+                    <label for="Exshowroom-price">Ex-showroom Price</label><br>
+                    <input type="number" name="exshowroom" id="exshowroom" placeholder="Ex-showroom Price" min="100000">
+                    <br>
+                    
+                    <label for="Mileage">Approximate Mileage</label><br>
+                    <input type="number" name="mileage" id="mileage" placeholder="Approximate Mileage" max="50">
+
+<br>
+                    <label for="transmission">Transmission Type</label><br>
+                    <select name="transmission" id="transmission">
+                        <option value=""></option>
+                        <option value="Automatic">Automatic</option>
+                        <option value="Manual">Manual</option>
+                    </select>
+<br>
+                    <label for="engine">Engine Displacement</label><br>
+                    <input type="number" name="engine" id="engine" placeholder="Engine Displacement">
+                    <br>
+                <button type="submit">SEARCH</button>
+                </div>
+            </form>
+
+
+
+<script src="" async defer></script>
+    </body>
+</html>
+
+<!-- Path: views\form.ejs -->
+
+
