@@ -51,8 +51,13 @@ The parameters used are :
  - - - - 
 
  ### Pictures ###
-
- 
+#### Landing Page
+![Image not found](https://github.com/Megh-Zyke/Toyota/blob/main/pics/Screenshot%202023-08-04%20130946.png) 
+![Image not found](https://github.com/Megh-Zyke/Toyota/blob/main/pics/Screenshot%202023-08-04%20130956.png)
+#### Filtering Page
+![Image not found](https://github.com/Megh-Zyke/Toyota/blob/main/pics/Screenshot%202023-08-04%20131011.png) 
+#### Rendered Output
+![Image not found](https://github.com/Megh-Zyke/Toyota/blob/main/pics/Screenshot%202023-08-04%20131039.png) 
 
  
   
